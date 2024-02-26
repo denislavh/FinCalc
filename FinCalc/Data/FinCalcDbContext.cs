@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FinCalc.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class FinCalcDbContext : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public FinCalcDbContext(DbContextOptions<FinCalcDbContext> options)
             : base(options)
         {
         }
